@@ -1,5 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap');
+
 body {
-    background: #e9f5db;
+    background: #cfe1b9;
+    color: #718355;
+    font-family: 'Roboto', sans-serif;
 }
 
 .search-box {
@@ -22,5 +26,18 @@ body {
     border: 1px solid #718355;
     border-top-right-radius: 5px;
     border-bottom-right-radius: 5px;
-    font-weight: 700;
+    font-weight: 900;
+}
+
+.search-result-card {
+    text-align: center;
+    border: 1px solid #718355;
+    border-radius: 5px;
+    background: #e9f5db;
+    min-height: 350px;
+    margin-bottom: 10px;
+}
+
+.search-result-card img{
+    width: 100%;
 }
