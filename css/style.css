@@ -27,17 +27,24 @@ body {
     border-top-right-radius: 5px;
     border-bottom-right-radius: 5px;
     font-weight: 900;
+    outline: none;
 }
 
 .search-result-card {
     text-align: center;
     border: 1px solid #718355;
     border-radius: 5px;
-    background: #e9f5db;
+    background: #fff;
     min-height: 350px;
     margin-bottom: 10px;
 }
 
 .search-result-card img{
     width: 100%;
+}
+
+.btn-details {
+    border-radius: 5px;
+    width: 100%;
+    margin: 10px 0px;
 }
