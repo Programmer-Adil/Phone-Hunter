@@ -55,6 +55,6 @@ body {
     margin-bottom: 10px;
 }
 
-#error {
-    display: none;
+.error {
+    color: red;
 }

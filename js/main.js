@@ -15,7 +15,7 @@ const displyAllPhone = (phones) => {
         document.getElementById("details-card").innerHTML = "";
         const parantH1 = document.getElementById("search-result");
         h1 = document.createElement('h1');
-        h1.className = "text-center";
+        h1.className = "error text-center";
         h1.innerText = `No data found!`
         parantH1.appendChild(h1);
     }
